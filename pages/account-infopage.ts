@@ -1,6 +1,5 @@
 import { Locator, Page } from '@playwright/test';
-import { BasePage } from './base.base';
-
+import { BasePage } from './base.page';
 
 export interface AccountDetails {
     title: 'Mr' | 'Mrs';
